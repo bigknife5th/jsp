@@ -34,8 +34,8 @@ jsproxy_config({
     },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
-      label: '',
-      hidden: false,
+      label: 'cf',
+      //hidden: true,
       lines: {
         'https://bilibili.fasmot.workers.dev': 1,
         // 收费版（高权重）
